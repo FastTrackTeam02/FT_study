@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+	<display-name>ServletTutorial</display-name>
+	
+	
+<servlet>
+   <servlet-name>helloServlet</servlet-name>
+   <servlet-class>fasttrack.edu.vn.HelloServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>helloServlet</servlet-name>
+   <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>hocVien</servlet-name>
+   <servlet-class>fasttrack.edu.vn.HocVien</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>hocVien</servlet-name>
+   <url-pattern>/hocvien</url-pattern>
+</servlet-mapping>
+
+
+ <welcome-file-list>
+       <welcome-file>index.html</welcome-file>
+       <welcome-file>index.htm</welcome-file>
+       <welcome-file>index.jsp</welcome-file>
+       <welcome-file>default.html</welcome-file>
+       <welcome-file>default.htm</welcome-file>
+       <welcome-file>default.jsp</welcome-file>
+   </welcome-file-list>
+
+</web-app>
